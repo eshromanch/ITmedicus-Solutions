@@ -1,4 +1,4 @@
-## Flutter Carousel Slider App
+## Assignment From ITmedicus Solutions
 
 This documentation provides an overview of the completed project for **ITmedicus Solutions**, including the implementation details and features. 
 
@@ -42,16 +42,6 @@ The home screen displays a carousel slider of images. The images are stored in a
 ### Search screen
 
 The search screen allows users to search for images by title, subtitle, or date. The user can enter a search term in the search bar, and the app will display a list of images that match the search term. The user can tap on an image to view it in full screen.
-
-### Database
-
-The app uses a SQLite database to store the images. The database contains a table called `images` which has the following columns:
-
-- `id`: The unique identifier for the image.
-- `title`: The title of the image.
-- `subtitle`: The subtitle of the image.
-- `image_url`: The URL of the image.
-- `created_at`: The date and time the image was created.
 
 ### Testing
 
