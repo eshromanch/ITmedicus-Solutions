@@ -4,7 +4,7 @@ This documentation provides an overview of the completed project for **ITmedicus
 
 ## Quick look
 
-![ezgif.com-video-to-gif](F:\ITmedicus Solutions\my_app\ezgif.com-video-to-gif.gif)
+![](https://github.com/eshromanch/ITmedicus-Solutions/blob/main/ezgif.com-video-to-gif.gif)
 
 ## Installation and Usage
 
