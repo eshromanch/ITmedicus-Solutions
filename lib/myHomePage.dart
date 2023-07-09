@@ -122,11 +122,12 @@ double number = MediaQuery.of(context).size.width /70;
                :FlutterCarousel(
                      options: CarouselOptions(
                        height: 150.0, 
-                       aspectRatio: 3/6,
+                      //  aspectRatio: 16/9,
+                       viewportFraction: 1,
                        showIndicator: true,
                      floatingIndicator: false,
                        slideIndicator:  const CircularSlideIndicator(
-                        
+                        itemSpacing: 15,
                         indicatorRadius: 4,
                         currentIndicatorColor: Color(0xff1479FF),
                         indicatorBackgroundColor: Color(0xffB4C7DE)
@@ -140,7 +141,7 @@ double number = MediaQuery.of(context).size.width /70;
                          // height: MediaQuery.of(context).size.height ,
                          margin: const EdgeInsets.symmetric(horizontal: 5.0),
                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(15)),
-                         child: Image.network(i["image"], fit: BoxFit.fill,)
+                         child: Image.network(i["image"], fit: BoxFit.cover,)
                        );
                      },
                        );

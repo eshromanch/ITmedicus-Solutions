@@ -2,6 +2,10 @@
 
 This documentation provides an overview of the completed project for **ITmedicus Solutions**, including the implementation details and features. 
 
+## Quick look
+
+![ezgif.com-video-to-gif](F:\ITmedicus Solutions\my_app\ezgif.com-video-to-gif.gif)
+
 ## Installation and Usage
 
 1. Clone the Repository: Clone the project repository from the GitHub repository using the following command:
