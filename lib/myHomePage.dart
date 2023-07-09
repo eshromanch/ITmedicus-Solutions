@@ -57,7 +57,13 @@ _sliders = data;
 
   @override
   Widget build(BuildContext context) {
-double number = MediaQuery.of(context).size.width /70;
+
+
+
+double number = MediaQuery.of(context).size.width / 3;
+double number2 = MediaQuery.of(context).size.width / 30;
+// print(number);
+// print( number2);
 
     return  SafeArea(
       maintainBottomViewPadding : false,
@@ -94,7 +100,7 @@ double number = MediaQuery.of(context).size.width /70;
              ),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Image.asset("lib/icons/notification.png", fit: BoxFit.fill, height: 42, width: 42,),
+                  child: Image.asset("lib/icons/notification2.png", fit: BoxFit.fill, height: 42, width: 42,),
                 ),),
              ],),
              Expanded(
@@ -158,9 +164,9 @@ double number = MediaQuery.of(context).size.width /70;
                      
                        padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 20),
                      
-                       crossAxisSpacing: number,
+                       crossAxisSpacing: number2,
                      
-                       mainAxisSpacing: number,
+                       mainAxisSpacing: number2,
                      
                        crossAxisCount: 3,
                      
@@ -174,9 +180,9 @@ double number = MediaQuery.of(context).size.width /70;
     builder : (context)=>ProductBrief()),
   ),)),
                        child: Container(
-                                      margin: EdgeInsets.all(6),
-                        height: 90.46,
-                        width: 102,
+                                      // margin: EdgeInsets.all(6),
+                        height: 100,
+                        width: number,
                          
                         decoration: const BoxDecoration(
                        color: Color(0xff62CEF9),
@@ -196,9 +202,9 @@ double number = MediaQuery.of(context).size.width /70;
                      
                      
                      Container(
-                     margin: EdgeInsets.all(6),
-                      height: 90.46,
-                      width: 102,  
+                    //  margin: EdgeInsets.all(6),
+                      height: 100,
+                      width: number,  
                       decoration: const BoxDecoration(
                      color: Color(0xff4AC989),
                      borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -216,9 +222,9 @@ double number = MediaQuery.of(context).size.width /70;
                      
                      
                      Container(
-                     margin: EdgeInsets.all(6),
-                      height: 90.46,
-                      width: 102,  
+                    //  margin: EdgeInsets.all(6),
+                      height: 100,
+                      width: number,  
                       decoration: const BoxDecoration(
                      color: Color(0xffA28EEC),
                      borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -235,9 +241,9 @@ double number = MediaQuery.of(context).size.width /70;
                      ),
                      
                      Container(
-                     margin: EdgeInsets.all(6),
-                      height: 90.46,
-                      width: 102,  
+                    //  margin: EdgeInsets.all(6),
+                      height: 100,
+                      width: number,  
                       decoration: const BoxDecoration(
                      color: Color(0xffFF7070),
                      borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -256,9 +262,9 @@ double number = MediaQuery.of(context).size.width /70;
                      
                      
                      Container(
-                     margin: EdgeInsets.all(6),
-                      height: 90.46,
-                      width: 102,  
+                    //  margin: EdgeInsets.all(6),
+                      height: 100,
+                      width: number,  
                       decoration: const BoxDecoration(
                      color: Color(0xffECAC4A),
                      borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -275,9 +281,9 @@ double number = MediaQuery.of(context).size.width /70;
                      ),
                      
                      Container(
-                     margin: EdgeInsets.all(6),
-                      height: 90.46,
-                      width: 102,  
+                    //  margin: EdgeInsets.all(6),
+                      height: 100,
+                      width: number,  
                       decoration: const BoxDecoration(
                      color: Color(0xffFB80BA),
                      borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -293,9 +299,9 @@ double number = MediaQuery.of(context).size.width /70;
                      
                      ),
                 Container(
-                     margin: EdgeInsets.all(6),
-                      height: 90.46,
-                      width: 102,  
+                    //  margin: EdgeInsets.all(6),
+                      height: 100,
+                      width: number,  
                       decoration: const BoxDecoration(
                      color: Color(0xff62CEF9),
                      borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -311,9 +317,9 @@ double number = MediaQuery.of(context).size.width /70;
                      
                      ),
                 Container(
-                     margin: EdgeInsets.all(6),
-                      height: 90.46,
-                      width: 102,  
+                    //  margin: EdgeInsets.all(6),
+                      height: 100,
+                      width: number,  
                       decoration: const BoxDecoration(
                      color: Color(0xff4AC989),
                      borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -329,9 +335,9 @@ double number = MediaQuery.of(context).size.width /70;
                      
                      ),
                 Container(
-                     margin: EdgeInsets.all(6),
-                      height: 90.46,
-                      width: 102,  
+                    //  margin: EdgeInsets.all(6),
+                      height: 100,
+                      width: number,  
                       decoration: const BoxDecoration(
                      color: Color(0xffFB80BA),
                      borderRadius: BorderRadius.all(Radius.circular(10)),
